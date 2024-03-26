@@ -67,6 +67,15 @@ nav a {
     margin: 1rem;
 }
 
+/* =================container2==================== */
+.cont2 {
+    background-color: blueviolet;
+}
+
+.cont2 img {
+    height: 21rem;
+}
+
 /* ================== responsive ================= */
 
 @media only screen and (min-width: 1024px) {
@@ -81,7 +90,7 @@ nav a {
     }
 
     .bigcontainer {
-        margin: 0 20rem 0 20rem;
+        margin: 0 15rem 0 15rem;
     }
 
     .cont1 {
@@ -93,6 +102,22 @@ nav a {
     .blubox {
         width: 20rem;
         margin: 1rem;
+
+    }
+
+    .blubox img {
+        transform: scale(0.7);
+    }
+    
+    .bigblu {
+
+    }
+
+    .application {
+
+        display: flex;
+        align-items: center;
+
     }
 
     .topblu {
@@ -101,6 +126,7 @@ nav a {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
 
 }
 
